@@ -1,0 +1,32 @@
+﻿Build started 2/12/2012 11:04:48 PM.
+     1>Project "C:\Users\Flam\Documents\Visual Studio 2010\Projects\FtpClient\FtpClient\FtpClient.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\FtpClient.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Ftp.cpp
+         Ftp.cpp
+     1>c:\users\flam\documents\visual studio 2010\projects\ftpclient\ftpclient\ftp.cpp(62): warning C4800: 'void *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\flam\documents\visual studio 2010\projects\ftpclient\ftpclient\ftp.cpp(89): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+     1>c:\users\flam\documents\visual studio 2010\projects\ftpclient\ftpclient\ftp.cpp(111): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\string.h(110) : see declaration of 'strcat'
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         d:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Flam\Documents\Visual Studio 2010\Projects\FtpClient\Debug\FtpClient.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\FtpClient.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Flam\Documents\Visual Studio 2010\Projects\FtpClient\Debug\FtpClient.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Flam\Documents\Visual Studio 2010\Projects\FtpClient\Debug\FtpClient.lib" /MACHINE:X86 Debug\FtpClient.exe.embed.manifest.res
+         Debug\Ftp.obj
+         Debug\FtpClient.obj
+         Debug\Main.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\FtpClient.exe.embed.manifest" /manifest Debug\FtpClient.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         FtpClient.vcxproj -> C:\Users\Flam\Documents\Visual Studio 2010\Projects\FtpClient\Debug\FtpClient.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\FtpClient.unsuccessfulbuild".
+         Touching "Debug\FtpClient.lastbuildstate".
+     1>Done Building Project "C:\Users\Flam\Documents\Visual Studio 2010\Projects\FtpClient\FtpClient\FtpClient.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.08
